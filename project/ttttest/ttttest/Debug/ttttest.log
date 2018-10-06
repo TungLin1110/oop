@@ -1,0 +1,69 @@
+﻿已經開始建置於 2015/12/10 下午 10:57:24。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\user\Desktop\學校\二年級\物件導向\專案\ttttest\ttttest\ttttest.vcxproj"。
+     1>InitializeBuildStatus:
+         正在變更時間戳記 "Debug\ttttest.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt a.cpp
+         a.cpp
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(5): error C2653: 'time' : 不是類別或命名空間名稱
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(6): error C4430: 遺漏型別規範 - 假設為 int。注意: C++ 不支援 default-int
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(7): error C3861: 'settime': 找不到識別項
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(8): warning C4508: 'time' : 函式應傳回值; 假定 'void' 傳回型別
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(9): error C2143: 語法錯誤 : 遺漏 ';' (在 '&' 之前)
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(9): error C4430: 遺漏型別規範 - 假設為 int。注意: C++ 不支援 default-int
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(9): error C2365: 'time' : 重複定義，先前的定義是 '函式'
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(9): error C2653: 'time' : 不是類別或命名空間名稱
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(10): error C4430: 遺漏型別規範 - 假設為 int。注意: C++ 不支援 default-int
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(11): error C3861: 'sethour': 找不到識別項
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(12): error C3861: 'setminute': 找不到識別項
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(13): error C3861: 'setsecond': 找不到識別項
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(14): error C2355: 'this' : 只能在非靜態成員函式內部參考
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(14): warning C4508: 'settime' : 函式應傳回值; 假定 'void' 傳回型別
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(16): error C2143: 語法錯誤 : 遺漏 ';' (在 '&' 之前)
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(16): error C4430: 遺漏型別規範 - 假設為 int。注意: C++ 不支援 default-int
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(16): error C2365: 'time' : 重複定義，先前的定義是 '函式'
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(16): error C2653: 'time' : 不是類別或命名空間名稱
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(17): error C4430: 遺漏型別規範 - 假設為 int。注意: C++ 不支援 default-int
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(19): error C2065: 'totalseconds' : 未宣告的識別項
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(19): error C3861: 'getminute': 找不到識別項
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(19): error C3861: 'getsecond': 找不到識別項
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(20): error C2355: 'this' : 只能在非靜態成員函式內部參考
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(20): warning C4508: 'sethour' : 函式應傳回值; 假定 'void' 傳回型別
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(22): error C2143: 語法錯誤 : 遺漏 ';' (在 '&' 之前)
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(22): error C4430: 遺漏型別規範 - 假設為 int。注意: C++ 不支援 default-int
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(22): error C2365: 'time' : 重複定義，先前的定義是 '函式'
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(22): error C2653: 'time' : 不是類別或命名空間名稱
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(23): error C4430: 遺漏型別規範 - 假設為 int。注意: C++ 不支援 default-int
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(25): error C2065: 'totalseconds' : 未宣告的識別項
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(25): error C3861: 'gethour': 找不到識別項
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(25): error C3861: 'getsecond': 找不到識別項
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(26): error C2355: 'this' : 只能在非靜態成員函式內部參考
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(26): warning C4508: 'setminute' : 函式應傳回值; 假定 'void' 傳回型別
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(28): error C2143: 語法錯誤 : 遺漏 ';' (在 '&' 之前)
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(28): error C4430: 遺漏型別規範 - 假設為 int。注意: C++ 不支援 default-int
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(28): error C2365: 'time' : 重複定義，先前的定義是 '函式'
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(28): error C2653: 'time' : 不是類別或命名空間名稱
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(29): error C4430: 遺漏型別規範 - 假設為 int。注意: C++ 不支援 default-int
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(31): error C2065: 'totalseconds' : 未宣告的識別項
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(31): error C3861: 'gethour': 找不到識別項
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(31): error C3861: 'getminute': 找不到識別項
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(32): error C2355: 'this' : 只能在非靜態成員函式內部參考
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(32): warning C4508: 'setsecond' : 函式應傳回值; 假定 'void' 傳回型別
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(34): error C2653: 'time' : 不是類別或命名空間名稱
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(35): error C2270: 'gethour' : 不允許在非成員函式上使用修飾詞
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(36): error C2065: 'totalseconds' : 未宣告的識別項
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(38): error C2653: 'time' : 不是類別或命名空間名稱
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(39): error C2270: 'getminute' : 不允許在非成員函式上使用修飾詞
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(40): error C2065: 'totalseconds' : 未宣告的識別項
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(42): error C2653: 'time' : 不是類別或命名空間名稱
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(43): error C2270: 'getsecond' : 不允許在非成員函式上使用修飾詞
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(44): error C2065: 'totalseconds' : 未宣告的識別項
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(46): error C2653: 'time' : 不是類別或命名空間名稱
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(47): error C2270: 'printuniversal' : 不允許在非成員函式上使用修飾詞
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(50): error C2653: 'time' : 不是類別或命名空間名稱
+     1>c:\users\user\desktop\學校\二年級\物件導向\專案\ttttest\ttttest\a.cpp(51): error C2270: 'printstsndard' : 不允許在非成員函式上使用修飾詞
+     1>專案 "C:\Users\user\Desktop\學校\二年級\物件導向\專案\ttttest\ttttest\ttttest.vcxproj" (build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:00.29
