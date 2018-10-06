@@ -1,0 +1,19 @@
+﻿已經開始建置於 2015/10/26 下午 08:13:24。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\user\Desktop\學校\二年級\物件導向\專案\hw2_1-1A1035531\hw2_1-1A1035531\hw2_1-1A1035531.vcxproj"。
+     1>InitializeBuildStatus:
+         正在變更時間戳記 "Debug\hw2_1-1A1035531.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GradeBook.cpp
+         GradeBook.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\hw2_1-1A1035531.exe.embed.manifest.res" Debug\hw2_1-1A1035531_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Desktop\學校\二年級\物件導向\專案\hw2_1-1A1035531\Debug\hw2_1-1A1035531.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\hw2_1-1A1035531.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\user\Desktop\學校\二年級\物件導向\專案\hw2_1-1A1035531\Debug\hw2_1-1A1035531.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Desktop\學校\二年級\物件導向\專案\hw2_1-1A1035531\Debug\hw2_1-1A1035531.lib" /MACHINE:X86 "Debug\hw2_1-1A1035531.exe.embed.manifest.res"
+         Debug\GradeBook.obj
+     1>MSVCRTD.lib(crtexe.obj) : error LNK2019: 無法解析的外部符號 _main 在函式 ___tmainCRTStartup 中被參考
+     1>C:\Users\user\Desktop\學校\二年級\物件導向\專案\hw2_1-1A1035531\Debug\hw2_1-1A1035531.exe : fatal error LNK1120: 1 個無法解析的外部符號
+     1>專案 "C:\Users\user\Desktop\學校\二年級\物件導向\專案\hw2_1-1A1035531\hw2_1-1A1035531\hw2_1-1A1035531.vcxproj" (build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:00.48
